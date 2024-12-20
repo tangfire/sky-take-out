@@ -28,7 +28,7 @@ public class DishServiceImpl implements DishService {
         BeanUtils.copyProperties(dishDTO, dish);
 
         // 向菜品表插入1条数据
-
+        dishMapper.insert(dish);
 
     }
 }
