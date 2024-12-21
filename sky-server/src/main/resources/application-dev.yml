@@ -7,3 +7,7 @@ sky:
     username: root
     password: 8888.216
   alioss:
+    bucket-name: sky-fire-itcast
+    endpoint: oss-cn-guangzhou.aliyuncs.com
+    access-key-secret: a9Iwh9oS3crMmRoND4L1HMRZrqz0Z3
+    access-key-id: LTAI5tSBSPcZ5sqftNiVkZts

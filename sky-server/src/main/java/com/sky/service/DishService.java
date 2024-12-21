@@ -9,6 +9,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 
 public interface DishService {
 
@@ -25,4 +27,10 @@ public interface DishService {
      * @return
      */
     PageResult pageQuery(DishPageQueryDTO dishPageQueryDTO);
+
+    /**
+     * 菜品批量删除
+     * @param ids
+     */
+    void deleteBatch(List<Long> ids);
 }
