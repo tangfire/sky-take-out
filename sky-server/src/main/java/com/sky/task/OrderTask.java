@@ -39,8 +39,8 @@ public class OrderTask {
                 orderMapper.update(orders);
             }
         }
-
     }
+
 
     // 每天凌晨1点触发一次
     @Scheduled(cron = "0 0 1 * * ?")
@@ -57,4 +57,5 @@ public class OrderTask {
             }
         }
     }
+
 }
