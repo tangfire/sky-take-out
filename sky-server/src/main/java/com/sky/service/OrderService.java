@@ -61,7 +61,7 @@ public interface OrderService {
      * @param ordersPageQueryDTO
      * @return
      */
-    PageResult conditionSearch(OrdersPageQueryDTO ordersPageQueryDTO);
+    PageResult  conditionSearch(OrdersPageQueryDTO ordersPageQueryDTO);
 
     /**
      * 各个状态的订单数量统计
