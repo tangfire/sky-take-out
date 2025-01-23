@@ -1,31 +1,5 @@
 # 苍穹外卖-管理端接口
 
----
-title: 苍穹外卖-管理端接口
-language_tabs:
-  - shell: Shell
-  - http: HTTP
-  - javascript: JavaScript
-  - ruby: Ruby
-  - python: Python
-  - php: PHP
-  - java: Java
-  - go: Go
-toc_footers: []
-includes: []
-search: true
-code_clipboard: true
-highlight_theme: darkula
-headingLevel: 2
-generator: "@tarslib/widdershins v4.0.23"
-
----
-
-# 苍穹外卖-管理端接口
-
-Base URLs:
-
-# Authentication
 
 # 分类相关接口
 
@@ -2730,33 +2704,6 @@ file: string
 
 # 苍穹外卖-用户端接口
 
-
----
-title: 苍穹外卖-用户端接口
-language_tabs:
-- shell: Shell
-- http: HTTP
-- javascript: JavaScript
-- ruby: Ruby
-- python: Python
-- php: PHP
-- java: Java
-- go: Go
-  toc_footers: []
-  includes: []
-  search: true
-  code_clipboard: true
-  highlight_theme: darkula
-  headingLevel: 2
-  generator: "@tarslib/widdershins v4.0.23"
-
----
-
-# 苍穹外卖-用户端接口
-
-Base URLs:
-
-# Authentication
 
 # C端-分类接口
 
